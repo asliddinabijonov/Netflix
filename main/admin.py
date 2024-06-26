@@ -4,4 +4,4 @@ from .models import *
 
 admin.site.index_title = ""
 admin.site.unregister(Group)
-admin.site.register([Kino, Aktyor, KinoAktyor, Izoh, Tarif])
+admin.site.register([Kino, Aktyor, KinoAktyor, Izoh, Tarif, User])
